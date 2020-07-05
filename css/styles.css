@@ -35,10 +35,10 @@ Colors:
 
 - Backgrounds - light gray #fbfbfb
 - Background - dark blue #153e52
-- Backgrounds navbar, footer - dark gray #113448
-- Buttons, bullets, icons - green #14bf98
-- Headings text - black #484a46
-- Body text - gray #787976
+- Backgrounds navbar, footer - dark gray #113448 -> #232323
+- Buttons, bullets, icons - green #14bf98 -> #333333
+- Headings text - black #484a46 -> #333333
+- Body text - gray #787976 -> #484848
 - Body text - light gray #dfe5ec
 ******************************************/
 
@@ -53,7 +53,7 @@ html {
 }
 
 body, p {
-	color: #787976;
+	color: #484848;
 	font: 400 1rem/1.5625rem "Open Sans", sans-serif;
 }
 
@@ -79,47 +79,47 @@ body, p {
 }
 
 h1 {
-	color: #484a46;
+	color: #333333;
 	font: 700 2.5rem/3rem "Montserrat", sans-serif;
 }
 
 h2 {
-	color: #484a46;
+	color: #333333;
 	font: 700 1.75rem/2.125rem "Montserrat", sans-serif;
 }
 
 h3 {
-	color: #484a46;
+	color: #333333;
 	font: 700 1.375rem/1.75rem "Montserrat", sans-serif;
 }
 
 h4 {
-	color: #484a46;
+	color: #333333;
 	font: 700 1.25rem/1.625rem "Montserrat", sans-serif;
 }
 
 h5 {
-	color: #484a46;
+	color: #333333;
 	font: 700 1.125rem/1.5rem "Montserrat", sans-serif;
 }
 
 h6 {
-	color: #484a46;
+	color: #333333;
 	font: 700 1rem/1.375rem "Montserrat", sans-serif;
 }
 
 a {
-	color: #787976;
+	color: #484848;
 	text-decoration: underline;
 }
 
 a:hover {
-	color: #787976;
+	color: #484848;
 	text-decoration: underline;
 }
 
 a.green {
-	color: #14bf98;
+	color: #333333;
 }
 
 a.white,
@@ -136,20 +136,20 @@ a.white,
 }
 
 strong {
-	color: #484a46;
+	color: #333333;
 }
 
 .section-title {
-	color: #14bf98;
+	color: #333333;
 	font: 500 0.8125rem/1.125rem "Montserrat", sans-serif;
 }
 
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
-	border: 0.125rem solid #14bf98;
+	border: 0.125rem solid #333333;
 	border-radius: 0.25rem;
-	background-color: #14bf98;
+	background-color: #333333;
 	color: #fff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -158,16 +158,16 @@ strong {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #14bf98;
+	color: #333333;
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.125rem 1.375rem 2.125rem;
-	border: 0.125rem solid #14bf98;
+	border: 0.125rem solid #FFFFFF;
 	border-radius: 0.25rem;
-	background-color: #14bf98;
+	background-color: transparent;
 	color: #fff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -175,25 +175,25 @@ strong {
 }
 
 .btn-solid-lg:hover {
-	background-color: transparent;
-	color: #14bf98;
+	background-color: #fff;
+	color: #333333;
 	text-decoration: none;
 }
 
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
-	border: 0.125rem solid #787976;
+	border: 0.125rem solid #484848;
 	border-radius: 0.25rem;
 	background-color: transparent;
-	color: #787976;
+	color: #484848;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	background-color: #787976;
+	background-color: #484848;
 	color: #fff;
 	text-decoration: none;
 }
@@ -201,17 +201,17 @@ strong {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.375rem 2.125rem 1.375rem 2.125rem;
-	border: 0.125rem solid #787976;
+	border: 0.125rem solid #484848;
 	border-radius: 0.25rem;
 	background-color: transparent;
-	color: #787976;
+	color: #484848;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-lg:hover {
-	background-color: #787976;
+	background-color: #484848;
 	color: #fff;
 	text-decoration: none;
 }
@@ -219,17 +219,17 @@ strong {
 .btn-outline-sm {
 	display: inline-block;
 	padding: 1rem 1.625rem 0.9375rem 1.625rem;
-	border: 0.125rem solid #787976;
+	border: 0.125rem solid #484848;
 	border-radius: 0.25rem;
 	background-color: transparent;
-	color: #787976;
+	color: #484848;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-sm:hover {
-	background-color: #787976;
+	background-color: #484848;
 	color: #fff;
 	text-decoration: none;
 }
@@ -251,7 +251,7 @@ strong {
 	position: absolute;
 	top: 0.8125rem;
 	left: 1.375rem;
-	color: #787976;
+	color: #484848;
 	opacity: 1;
 	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
 	cursor: text;
@@ -285,7 +285,7 @@ strong {
 	border: 1px solid #dadada;
 	border-radius: 0.25rem;
 	background-color: #fff;
-	color: #787976;
+	color: #484848;
 	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
 	transition: all 0.2s;
 	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
@@ -339,7 +339,7 @@ select::-ms-expand {
 	border: 1px solid #dadada;
 	border-radius: 0.25rem;
 	background-color: #fff;
-	color: #787976;
+	color: #484848;
 	font: 400 1rem/1.5625rem "Open Sans", sans-serif;
 	transition: all 0.2s;
 }
@@ -377,9 +377,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 0.125rem solid #14bf98;
+	border: 0.125rem solid #333333;
 	border-radius: 0.25rem;
-	background-color: #14bf98;
+	background-color: #333333;
 	color: #fff;
 	font: 700 0.75rem/1.75rem "Montserrat", sans-serif;
 	cursor: pointer;
@@ -388,7 +388,7 @@ input[type='checkbox'] {
 
 .form-control-submit-button:hover {
 	background-color: transparent;
-	color: #14bf98;
+	color: #333333;
 }
 
 /* Form Success And Error Message Formatting */
@@ -405,7 +405,7 @@ input[type='checkbox'] {
 }
 
 .help-block.with-errors .list-unstyled {
-	color: #787976;
+	color: #484848;
 	font-size: 0.75rem;
 	line-height: 1.125rem;
 	text-align: left;
@@ -587,7 +587,7 @@ input[type='checkbox'] {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #113448;
+	background: #232323;
 }
 
 .spinner {
@@ -644,7 +644,7 @@ input[type='checkbox'] {
 .navbar-custom {
 	padding-top: 0.375rem;
 	padding-bottom: 0.375rem;
-	background-color: #113448;
+	background-color: #FFFFFF;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	font: 600 0.875rem/0.875rem "Open Sans", sans-serif;
 	transition: all 0.2s;
@@ -682,7 +682,7 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #14bf98;
+	color: #333333;
 }
 
 /* Dropdown Menu */
@@ -710,7 +710,7 @@ input[type='checkbox'] {
 	margin-top: 0;
 	border: none;
 	border-radius: 0.25rem;
-	background-color: #113448;
+	background-color: #FFFFFF;
 }
 
 .navbar-custom .dropdown-item {
@@ -719,7 +719,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item:hover {
-	background-color: #113448;
+	background-color: #FFFFFF;
 }
 
 .navbar-custom .dropdown-item .item-text {
@@ -727,7 +727,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-	color: #14bf98;
+	color: #333333;
 }
 
 .navbar-custom .dropdown-items-divide-hr {
@@ -774,6 +774,7 @@ input[type='checkbox'] {
 .header {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/header-background.jpg') center center no-repeat;
 	background-size: cover;
+/*    -webkit-filter:grayscale(100%);*/
 }
 
 .header .header-content {
@@ -823,7 +824,7 @@ input[type='checkbox'] {
 }
 
 .basic-1 .testimonial-author {
-	color: #484a46;
+	color: #333333;
 }
 
 /* Hover Animation */
@@ -842,6 +843,10 @@ input[type='checkbox'] {
 	-moz-transform: scale(1.15);
 	-webkit-transform: scale(1.15);
 	transform: scale(1.15);
+}
+
+.brand-icons{
+    font-size: 4em;
 }
 /* end of hover animation */
 
@@ -940,7 +945,7 @@ input[type='checkbox'] {
 }
 
 .cards-2 .list-unstyled .fas {
-	color: #14bf98;
+	color: #333333;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -951,13 +956,13 @@ input[type='checkbox'] {
 
 .cards-2 .price {
 	margin-bottom: 0.25rem;
-	color: #484a46;
+	color: #333333;
 	font: 700 1rem/1.5rem "Montserrat", sans-serif;
 	text-align: center;
 }
 
 .cards-2 .price span {
-	color: #14bf98;
+	color: #333333;
 }
 
 .cards-2 .button-container {
@@ -969,7 +974,14 @@ input[type='checkbox'] {
 	background-color: #fff;
 }
 
+#projects_card h2{
+    text-align: center;
+    padding: 100px 30px 50px;
+}
 
+#test:hover i{
+    transform: rotateY(360deg);
+}
 /*************************/
 /*     08. Details 1     */
 /*************************/
@@ -1005,9 +1017,9 @@ input[type='checkbox'] {
 	width: 2.25rem;
 	height: 2.25rem;
 	margin-right: 0.875rem;
-	border: 0.125rem solid #14bf98;
+	border: 0.125rem solid #333333;
 	border-radius: 50%;
-	background-color: #14bf98;
+	background-color: #333333;
 	color: #fff;
 	font: 700 1rem/2.125rem "Montserrat", sans-serif;
 	text-align: center;
@@ -1017,14 +1029,14 @@ input[type='checkbox'] {
 }
 
 .accordion span[aria-expanded="false"] .circle-numbering {
-	border: 0.125rem solid #484a46;
+	border: 0.125rem solid #333333;
 	background-color: transparent;
-	color: #484a46;
+	color: #333333;
 }
 
 .accordion .item:hover span[aria-expanded="false"] .circle-numbering {
-	border: 0.125rem solid #14bf98;
-	color: #14bf98;
+	border: 0.125rem solid #333333;
+	color: #333333;
 }
 
 .accordion .accordion-title {
@@ -1032,7 +1044,7 @@ input[type='checkbox'] {
 	width: 70%;
 	margin-top: 0.125rem;
 	margin-bottom: 0.25rem;
-	color: #484a46;
+	color: #333333;
 	font: 700 1.25rem/1.75rem "Montserrat", sans-serif;
 	vertical-align: middle;
 	cursor: pointer;
@@ -1040,11 +1052,11 @@ input[type='checkbox'] {
 }
 
 .accordion .item:hover .accordion-title {
-	color: #14bf98;
+	color: #333333;
 }
 
 .accordion span[aria-expanded="true"] .accordion-title {
-	color: #14bf98;
+	color: #333333;
 }
 
 .accordion .accordion-body {
@@ -1083,7 +1095,7 @@ input[type='checkbox'] {
 
 .tabs .nav-link:hover,
 .tabs .nav-link.active {
-	color: #14bf98;
+	color: #333333;
 }
 
 .tabs .nav-link .fas {
@@ -1098,7 +1110,7 @@ input[type='checkbox'] {
 
 .tabs #tab-1 .progress-container .title {
 	margin-bottom: 0.25rem;
-	color: #484a46;
+	color: #333333;
 	font: 600 0.875rem/1.25rem "Open Sans", sans-serif;
 }
 
@@ -1113,7 +1125,7 @@ input[type='checkbox'] {
 	display: block;
 	padding-left: 1.5rem;
 	border-radius: 0.125rem;
-	background: linear-gradient(to bottom right, #14bf98, #1bd1a7);
+	background: linear-gradient(to bottom right, #333333, #1bd1a7);
 }
 
 .tabs #tab-1 .progress-bar.first {
@@ -1139,7 +1151,7 @@ input[type='checkbox'] {
 }
 
 .tabs #tab-2 .list-unstyled .media-bullet {
-	color: #14bf98;
+	color: #333333;
 	font-weight: 600;
 	font-size: 2rem;
 	line-height: 2rem;
@@ -1150,7 +1162,7 @@ input[type='checkbox'] {
 }
 
 .tabs #tab-3 .list-unstyled .fas {
-	color: #14bf98;
+	color: #333333;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1176,7 +1188,7 @@ input[type='checkbox'] {
 .slider {
 	padding-top: 6.375rem;
 	padding-bottom: 6.5rem;
-	background-color: #fbfbfb;
+	background-color: white;
 }
 
 .slider h2 {
@@ -1218,13 +1230,29 @@ input[type='checkbox'] {
 	background-color: transparent;
 }
 
-.slider .card-image {
+/*.slider .card-image {
 	width: 6rem;
 	height: 6rem;
 	margin-right: auto;
 	margin-bottom: 0.25rem;
 	margin-left: auto;
 	border-radius: 50%;
+}*/
+
+#project1 .card-image {
+	width: 18rem;
+	height: 25rem;
+	margin-right: auto;
+	margin-bottom: 0.25rem;
+	margin-left: auto;
+}
+
+#project2 .card-image{
+    width: 35rem;
+	height: 25rem;
+	margin-right: auto;
+	margin-bottom: 0.25rem;
+	margin-left: auto;
 }
 
 .slider .card .card-body {
@@ -1236,7 +1264,7 @@ input[type='checkbox'] {
 }
 
 .slider .testimonial-author {
-	color: #484a46;
+	color: #333333;
 }
 
 
@@ -1263,7 +1291,7 @@ input[type='checkbox'] {
 }
 
 .form-1 .list-unstyled .fas {
-	color: #14bf98;
+	color: #333333;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1348,12 +1376,12 @@ input[type='checkbox'] {
 }
 
 .filter .button-group a:hover {
-	background-color: #14bf98;
+	background-color: #333333;
 	color: #fff;
 }
 
 .filter .button-group a.button.is-checked {
-	background-color: #14bf98;
+	background-color: #333333;
 	color: #fff;
 }
 
@@ -1435,7 +1463,7 @@ input[type='checkbox'] {
 	margin-bottom: 0.625rem;
 	margin-left: 0;
 	border: none;
-	background-color: #14bf98;
+	background-color: #333333;
 }
 
 .lightbox-basic h6 {
@@ -1469,7 +1497,7 @@ input[type='checkbox'] {
 	width: auto;
 	height: auto;
 	margin-right: 0.5rem;
-	color: #484a46;
+	color: #333333;
 	opacity: 1;
 }
 
@@ -1532,7 +1560,7 @@ input[type='checkbox'] {
 
 .basic-2 .team-member .job-title {
 	margin-bottom: 0.75rem;
-	color: #484a46;
+	color: #333333;
 	font: 700 1rem/1.375rem "Montserrat", sans-serif;
 }
 
@@ -1566,7 +1594,7 @@ input[type='checkbox'] {
 }
 
 .basic-2 .fa-stack:hover .fa-stack-1x {
-	color: #14bf98;
+	color: #333333;
 }
 
 
@@ -1599,7 +1627,7 @@ input[type='checkbox'] {
 }
 
 .counter .list-unstyled .fas {
-	color: #14bf98;
+	color: #333333;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1621,7 +1649,7 @@ input[type='checkbox'] {
 .counter #counter .counter-value {
 	display: inline-block;
 	margin-bottom: 0.125rem;
-	color: #14bf98;
+	color: #333333;
 	font: 700 2.875rem/3.25rem "Montserrat", sans-serif;
 	vertical-align: middle;
 }
@@ -1666,7 +1694,7 @@ input[type='checkbox'] {
 .form-2 .list-unstyled .fab {
 	margin-right: 0.5rem;
 	font-size: 0.875rem;
-	color: #14bf98;
+	color: #333333;
 }
 
 .form-2 .list-unstyled .fa-phone {
@@ -1707,7 +1735,7 @@ input[type='checkbox'] {
 }
 
 .form-2 .fa-stack:hover .fa-stack-1x {
-	color: #14bf98;
+	color: #333333;
 }
 
 
@@ -1716,7 +1744,7 @@ input[type='checkbox'] {
 /**********************/
 .footer {
 	padding-top: 5rem;
-	background-color: #113448;
+	background-color: #232323;
 }
 
 .footer .text-container {
@@ -1741,7 +1769,7 @@ input[type='checkbox'] {
 .copyright {
 	padding-top: 1rem;
 	padding-bottom: 0.5rem;
-	background-color: #113448;
+	background-color: #232323;
 	text-align: center;
 }
 
@@ -1764,7 +1792,7 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #14bf98 url("../images/up-arrow.png") no-repeat center 47%;
+	background: #333333 url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
@@ -1821,7 +1849,7 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 .list-unstyled .fas {
-	color: #14bf98;
+	color: #333333;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1876,13 +1904,15 @@ a:hover.back-to-top {
 
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #14bf98;
+		color: #FFFFFF;
+        border-bottom: solid 2px;
 	}
 
 	.navbar-custom.top-nav-collapse {
         padding: 0.375rem 1.5rem 0.375rem 2rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-		background-color: #113448;
+		background-color: #FFFFFF;
+
 	}
 
 	.navbar-custom.top-nav-collapse .navbar-brand.logo-text {
@@ -1890,12 +1920,12 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link {
-		color: #fff;
+		color: #232323;
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #14bf98;
+		color: #232323;
 	}
 
 	.navbar-custom .dropdown-menu {
@@ -1958,6 +1988,10 @@ a:hover.back-to-top {
 
 
 	/* Testimonials */
+    .slider h2{
+        padding-bottom: 30px;
+    }
+
 	.slider .swiper-button-prev {
 		left: 1rem;
 		width: 1.375rem;
@@ -1973,6 +2007,7 @@ a:hover.back-to-top {
 
 
 	/* Projects */
+
 	.filter .element-item {
 		width: 25%;
 	}
@@ -1985,6 +2020,15 @@ a:hover.back-to-top {
 	.filter .element-item:hover .element-item-overlay {
 		opacity: 1;
 	}
+
+    .pj-card{
+        margin: 3em 1em;
+    }
+
+    .descript-card h3{
+        margin-bottom: 0px;
+    }
+
 	/* end of projects */
 
 
@@ -2067,7 +2111,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
-		color: #14bf98;
+		color: #333333;
 	}
 	/* end of navigation */
 
@@ -2092,6 +2136,18 @@ a:hover.back-to-top {
 	.basic-1 .text-container {
 		margin-bottom: 0;
 	}
+
+    .about-info{
+        margin-bottom: 3em;
+    }
+
+    .contact-info li{
+        list-style: none;
+    }
+
+    #about li i{
+        padding: 5px;
+    }
 	/* end of intro */
 
 
@@ -2121,6 +2177,26 @@ a:hover.back-to-top {
 		margin-right: 1.25rem;
 		margin-left: 1.25rem;
 	}
+
+    .card-icon {
+        width: 20em;
+        height: 10em;
+        text-align: center;
+    }
+
+    .card-icon i{
+        font-size: 7em;
+    }
+
+    .card-icon:hover{
+/*
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+        -ms-transform: rotateY(360deg);
+*/
+        transform: rotateY(360deg);
+    }
+
 	/* end of services */
 
 

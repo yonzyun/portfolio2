@@ -65,16 +65,16 @@
 
     /* Card Slider - Swiper */
 	var cardSlider = new Swiper('.card-slider', {
-		autoplay: {
+		/*autoplay: {
             delay: 4000,
             disableOnInteraction: false
-		},
+		},*/
         loop: true,
         navigation: {
 			nextEl: '.swiper-button-next',
 			prevEl: '.swiper-button-prev'
 		},
-		slidesPerView: 3,
+		slidesPerView: 1,
 		spaceBetween: 20,
         breakpoints: {
             // when window is <= 992px
@@ -246,6 +246,7 @@
 		var email = $("#cemail").val();
         var message = $("#cmessage").val();
         var terms = $("#cterms").val();
+
         $.ajax({
             type: "POST",
             url: "php/contactform-process.php",
